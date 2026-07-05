@@ -1,3 +1,5 @@
+package com.example.library.domain;
+
 public class Member {
     private int id;
     private String fullName;

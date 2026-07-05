@@ -1,6 +1,12 @@
+package com.example.library;
+
 import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
+
+import com.example.library.domain.*;
+import com.example.library.exception.LibraryException;
+import com.example.library.service.LibraryService;
 
 public class Main {
     public static void main(String[] arg) {

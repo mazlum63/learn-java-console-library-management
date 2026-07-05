@@ -1,9 +1,14 @@
+package com.example.library.service;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+
+import com.example.library.domain.*;
+import com.example.library.exception.LibraryException;
 
 public class LibraryService {
     private Map<Integer, Book> books = new HashMap<>();

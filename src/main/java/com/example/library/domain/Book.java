@@ -1,3 +1,5 @@
+package com.example.library.domain;
+
 public class Book {
     private int id;
     private String title;
